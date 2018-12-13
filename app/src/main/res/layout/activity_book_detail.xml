@@ -14,7 +14,7 @@
             android:id="@+id/btnBack"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/common_google_signin_btn_icon_disabled"
+            android:src="@drawable/ic_action_back"
             android:onClick="Onclicktobookself"
             />
 
@@ -29,7 +29,7 @@
                 android:id="@+id/btnFav"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/common_google_signin_btn_icon_disabled"
+                android:src="@drawable/tfav"
                 android:onClick="Onclicktobookself"
                 />
             <ImageButton

@@ -86,7 +86,9 @@ public class BookselfActivity extends AppCompatActivity {
                             countImage+=1;
                             if(countImage>3 || countImage==1){
                                 countImage =1;
-                                LinearLayout.LayoutParams layparam = new LinearLayout.LayoutParams(100, 150);//o
+//                                LinearLayout.LayoutParams layparam = new LinearLayout.LayoutParams(100, 150);//o
+                                LinearLayout.LayoutParams layparam = new LinearLayout.LayoutParams(220, 320);//o
+
                                 layparam.setMargins(7,0,0,0);//o
 
                                 ImageView image = new ImageView(BookselfActivity.this);//o

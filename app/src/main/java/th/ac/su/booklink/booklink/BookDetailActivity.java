@@ -55,6 +55,7 @@ public class BookDetailActivity extends AppCompatActivity {
                     NameBook.setText(obj.getJSONObject(UserDetail.bookserect).getString("bookname"));
                     AuthorBook.setText("นักเขียน"+obj.getJSONObject(UserDetail.bookserect).getString("authorname"));
                     TitleBook.setText(obj.getJSONObject(UserDetail.bookserect).getString("titlebook"));
+
                     PublisherBook.setText("สำนักพิมพ์ : "+obj.getJSONObject(UserDetail.bookserect).getString("publisherbook"));
                     CatagoryBook.setText("หมวดหมู่ : "+obj.getJSONObject(UserDetail.bookserect).getString("catagorybook"));
 
@@ -133,10 +134,10 @@ public class BookDetailActivity extends AppCompatActivity {
                             switch(obj.getString(type))
                             {
                                 case "true":
-                                    btnFav.setImageResource(R.drawable.common_google_signin_btn_icon_light);
+                                    btnFav.setImageResource(R.drawable.bfav);
                                     break;
                                 case "false":
-                                    btnFav.setImageResource(R.drawable.common_google_signin_btn_icon_dark);
+                                    btnFav.setImageResource(R.drawable.tfav);
                                     break;
                             }
                             break;
